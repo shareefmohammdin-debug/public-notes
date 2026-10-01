@@ -1,0 +1,202 @@
+/* =========================
+   Sidebar
+========================= */
+
+.sidebar {
+    width: 220px;
+    min-width: 220px;
+
+    height: 100vh;
+
+    padding: 24px 14px;
+
+    border-right: 1px solid #ececec;
+
+    background: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================
+   Title
+========================= */
+
+.sidebar-title {
+    padding: 0 10px;
+
+    margin-bottom: 22px;
+
+    color: #a0a0a0;
+
+    font-size: 11px;
+    font-weight: 600;
+
+    letter-spacing: 2px;
+}
+
+
+/* =========================
+   Menu
+========================= */
+
+.sidebar-menu {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 4px;
+}
+
+
+/* =========================
+   Links
+========================= */
+
+.sidebar-link {
+    width: 100%;
+    height: 42px;
+
+    padding: 0 11px;
+
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+
+    gap: 11px;
+
+    border: 1px solid transparent;
+
+    border-radius: 9px;
+
+    background: transparent;
+
+    color: #62666d;
+
+    font-size: 13px;
+    font-weight: 500;
+
+    text-decoration: none;
+
+    transition:
+        background 0.2s ease,
+        color 0.2s ease,
+        transform 0.15s ease;
+}
+
+
+.sidebar-link:hover {
+    background: #f6f7f9;
+
+    color: #1d1d1f;
+}
+
+
+.sidebar-link:active {
+    transform: scale(0.98);
+}
+
+
+/* Icon */
+
+.sidebar-icon {
+    width: 20px;
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    font-size: 15px;
+}
+
+
+/* =========================
+   Bottom
+========================= */
+
+.sidebar-bottom {
+    margin-top: auto;
+
+    padding-top: 18px;
+
+    border-top: 1px solid #f0f0f0;
+}
+
+
+/* New Note */
+
+.sidebar-add {
+    width: 100%;
+    height: 42px;
+
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 7px;
+
+    border-radius: 9px;
+
+    background: #1d1d1f;
+
+    color: #ffffff;
+
+    font-size: 13px;
+    font-weight: 500;
+
+    text-decoration: none;
+
+    transition:
+        background 0.2s ease,
+        transform 0.15s ease;
+}
+
+
+.sidebar-add:hover {
+    background: #333336;
+}
+
+
+.sidebar-add:active {
+    transform: scale(0.98);
+}
+
+
+/* =========================
+   Tablet
+========================= */
+
+@media (max-width: 855px) {
+
+    .sidebar {
+        width: 190px;
+        min-width: 190px;
+
+        padding: 20px 10px;
+    }
+
+    .sidebar-link {
+        font-size: 12.5px;
+    }
+}
+
+
+/* =========================
+   Mobile
+========================= */
+
+@media (max-width: 700px) {
+
+    .sidebar {
+        display: none;
+    }
+}

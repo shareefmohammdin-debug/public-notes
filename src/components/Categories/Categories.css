@@ -1,0 +1,53 @@
+ .chips {
+     display: flex;
+     gap: 10px;
+     padding: 16px 22px;
+     border-bottom: 1px solid #ececec;
+     flex: 0 0 auto;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .chip {
+     height: 34px;
+     padding: 0 16px;
+     border-radius: 999px;
+     background: #f6f7f9;
+     border: 1px solid #ececec;
+     display: flex;
+     align-items: center;
+     gap: 7px;
+     font-size: 13px;
+     color: #54585f;
+     font-weight: 500;
+     cursor: pointer;
+     transition: 0.3s;
+ }
+
+ .chip .count {
+     font-size: 11px;
+     color: #8a8f98;
+     background: #fff;
+     border: 1px solid #ececec;
+     border-radius: 999px;
+     padding: 1px 7px;
+ }
+
+ .active {
+     background: #1d1d1f;
+     color: #fff;
+     border-color: #1d1d1f;
+ }
+
+ /* .chip.active .count {
+     background: rgba(255, 255, 255, .16);
+     border-color: transparent;
+     color: #fff;
+ } */
+
+
+ .reactLink {
+     text-decoration: none;
+     color: inherit;
+ }

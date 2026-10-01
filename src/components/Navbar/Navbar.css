@@ -1,0 +1,171 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #ececec;
+}
+
+.logo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px ;
+    padding-left: 20px ;
+}
+
+#N{
+    padding: 3px 6px 3px 6px;
+    margin-right: 8px;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+.search{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-right: 10px ;
+    padding-right: 20px;
+}
+
+.search p{
+    width: 60%;
+}
+
+.search input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    background-color: rgba(103, 103, 103, 0.062);
+    transition: .3s;
+}
+.search input:focus{
+    outline: none;
+}
+
+.search span{
+    background-color: rgba(103, 103, 103, 0.062);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* =========================
+   Tablet
+========================= */
+
+@media (max-width: 768px) {
+
+    .logo {
+        width: 45%;
+        padding-left: 15px;
+    }
+
+    .search {
+        width: 55%;
+        padding-right: 15px;
+    }
+
+    #N {
+        font-size: 20px;
+        padding: 3px 6px;
+    }
+
+    #notes {
+        font-size: 18px;
+    }
+
+    .search p {
+        width: 30%;
+    }
+
+    .search input {
+        width: 140px;
+    }
+
+    .search span {
+        width: 36px;
+        height: 36px;
+        flex-shrink: 0;
+    }
+}
+
+
+/* =========================
+   Mobile
+========================= */
+
+@media (max-width: 550px) {
+
+    .navbar {
+        min-height: 58px;
+    }
+
+    .logo {
+        width: auto;
+        flex: 1;
+        padding-left: 12px;
+    }
+
+    .search {
+        width: auto;
+        padding-right: 12px;
+    }
+
+    #N {
+        font-size: 18px;
+
+        padding: 3px 6px;
+
+        margin-right: 6px;
+    }
+
+    #notes {
+        font-size: 15px;
+    }
+
+    .search p {
+        display: none;
+    }
+
+    .search input {
+        width: 120px;
+
+        padding: 8px;
+
+        margin: 4px;
+    }
+
+    .search span {
+        width: 34px;
+        height: 34px;
+    }
+}
+
+
+/* =========================
+   Small phones
+========================= */
+
+@media (max-width: 380px) {
+
+    #notes {
+        display: none;
+    }
+
+    .logo {
+        flex: 0;
+    }
+
+    .search {
+        flex: 1;
+        justify-content: flex-end;
+    }
+
+    .search input {
+        width: 110px;
+    }
+}

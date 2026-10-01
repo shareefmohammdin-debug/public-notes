@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "title": "React Documentation",
+        "url": "https://react.dev",
+        "content": "Official React documentation for learning components, hooks, and modern React.",
+        "categories": "Archive"
+    },
+    {
+        "id": 2,
+        "title": "JavaScript Guide",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+        "content": "A comprehensive guide to JavaScript fundamentals and advanced concepts.",
+        "categories": "links"
+    },
+    {
+        "id": 3,
+        "title": "My JavaScript Notes",
+        "url": "",
+        "content": "Review functions, arrays, objects, loops, and asynchronous JavaScript.",
+        "categories": "notes"
+    },
+    {
+        "id": 4,
+        "title": "Node.js",
+        "url": "https://nodejs.org",
+        "content": "Official Node.js website and documentation.",
+        "categories": "Favorites"
+    },
+    {
+        "id": 5,
+        "title": "Express.js",
+        "url": "https://expressjs.com",
+        "content": "Fast and minimalist web framework for Node.js.",
+        "categories": "links"
+    },
+    {
+        "id": 6,
+        "title": "Learn CSS",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "content": "MDN documentation for learning CSS properties, layouts, and styling.",
+        "categories": "links"
+    },
+    {
+        "id": 7,
+        "title": "React Hooks Notes",
+        "url": "",
+        "content": "Remember to practice useState, useEffect, useContext, and custom hooks.",
+        "categories": "notes"
+    },
+    {
+        "id": 8,
+        "title": "GitHub",
+        "url": "https://github.com",
+        "content": "Platform for hosting and managing software development projects.",
+        "categories": "Favorites"
+    },
+    {
+        "id": 9,
+        "title": "Supabase",
+        "url": "https://supabase.com",
+        "content": "Open source backend platform providing database, authentication, storage, and APIs.",
+        "categories": "links"
+    },
+    {
+        "id": 10,
+        "title": "SQL Practice",
+        "url": "",
+        "content": "Practice SELECT, INSERT, UPDATE, DELETE, JOIN, GROUP BY, and aggregate functions.",
+        "categories": "notes"
+    },
+    {
+        "id": 11,
+        "title": "MongoDB",
+        "url": "https://www.mongodb.com",
+        "content": "Document-oriented NoSQL database commonly used with Node.js applications.",
+        "categories": "links"
+    },
+    {
+        "id": 12,
+        "title": "Mongoose",
+        "url": "https://mongoosejs.com",
+        "content": "MongoDB object modeling library for Node.js.",
+        "categories": "Favorites"
+    },
+    {
+        "id": 13,
+        "title": "HTML Reference",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "content": "Reference for HTML elements, attributes, forms, semantic elements, and more.",
+        "categories": "links"
+    },
+    {
+        "id": 14,
+        "title": "API Development Notes",
+        "url": "",
+        "content": "Remember the common API structure: route, middleware, controller, validation, and database.",
+        "categories": "notes"
+    },
+    {
+        "id": 15,
+        "title": "TypeScript",
+        "url": "https://www.typescriptlang.org",
+        "content": "Typed superset of JavaScript that helps build scalable applications.",
+        "categories": "links"
+    },
+    {
+        "id": 16,
+        "title": "JWT Authentication",
+        "url": "https://jwt.io",
+        "content": "Learn how JSON Web Tokens can be used for authentication and authorization.",
+        "categories": "Favorites"
+    },
+    {
+        "id": 17,
+        "title": "Python Documentation",
+        "url": "https://docs.python.org/3/",
+        "content": "Official Python documentation and language reference.",
+        "categories": "links"
+    },
+    {
+        "id": 18,
+        "title": "Full Stack Roadmap",
+        "url": "",
+        "content": "Frontend: HTML, CSS, JavaScript, React. Backend: Node.js, Express. Database: SQL or MongoDB.",
+        "categories": "notes"
+    },
+    {
+        "id": 19,
+        "title": "Vite",
+        "url": "https://vite.dev",
+        "content": "Modern frontend build tool commonly used for React projects.",
+        "categories": "Favorites"
+    },
+    {
+        "id": 20,
+        "title": "Axios",
+        "url": "https://axios-http.com",
+        "content": "Promise-based HTTP client for making requests from JavaScript applications.",
+        "categories": "links"
+    }
+]

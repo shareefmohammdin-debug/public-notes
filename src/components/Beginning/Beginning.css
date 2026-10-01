@@ -1,0 +1,126 @@
+.startContainer {
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start {
+    width: 40%;
+    height: 40%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.add {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.addText {
+    color: #000;
+    font-size: large;
+    font-weight: 700;
+}
+
+.stepText {
+    text-align: center;
+    color: #6c6c6c;
+    font-size: 13px;
+}
+
+.reactLink {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+
+    .start {
+        width: 60%;
+        height: auto;
+    }
+
+    .add {
+        width: 90px;
+        height: 90px;
+        font-size: 28px;
+    }
+
+    .addText {
+        font-size: 17px;
+    }
+
+    .stepText {
+        font-size: 12.5px;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 480px) {
+
+    .startContainer {
+        padding: 20px;
+    }
+
+    .start {
+        width: 100%;
+        height: auto;
+
+        gap: 13px;
+    }
+
+    .add {
+        width: 80px;
+        height: 80px;
+
+        font-size: 26px;
+    }
+
+    .addText {
+        font-size: 16px;
+    }
+
+    .stepText {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+}
+
+
+/* Small phones */
+@media (max-width: 360px) {
+
+    .startContainer {
+        padding: 15px;
+    }
+
+    .add {
+        width: 70px;
+        height: 70px;
+
+        font-size: 24px;
+    }
+
+    .addText {
+        font-size: 15px;
+    }
+
+    .stepText {
+        font-size: 11.5px;
+    }
+}

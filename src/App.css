@@ -1,0 +1,9 @@
+*{
+    font-family: arial;
+}
+
+.main{
+    display: flex;
+    padding: 10px;
+    height: 100%;
+}
