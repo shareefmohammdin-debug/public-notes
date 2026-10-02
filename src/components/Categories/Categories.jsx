@@ -63,23 +63,23 @@ export default function Categories() {
         <div class="chips">
 
             <Link to='/show/all' className='reactLink'>
-                <div class="chip " ref={allRef} onClick={allClick} >All <span class="count">12</span></div>
+                <div class="chip " ref={allRef} onClick={allClick} >All <span class="count">1~</span></div>
             </Link>
 
             <Link to='/show/links' className='reactLink'>
-                <div class="chip" ref={linksRef} onClick={linksClick}>Links<span class="count">5</span></div>
+                <div class="chip" ref={linksRef} onClick={linksClick}>Links<span class="count">~</span></div>
             </Link>
 
             <Link to='/show/notes' className='reactLink'>
-                <div class="chip" ref={notesRef} onClick={notesClick}>Notes <span class="count">6</span></div>
+                <div class="chip" ref={notesRef} onClick={notesClick}>Notes <span class="count">~</span></div>
             </Link>
 
             <Link to='/show/Favorites' className='reactLink'>
-                <div class="chip" ref={favoritesRef} onClick={favoritesClick}>Favorites <span class="count">3</span></div>
+                <div class="chip" ref={favoritesRef} onClick={favoritesClick}>Favorites <span class="count">~</span></div>
             </Link>
 
             <Link to='/show/Archive' className='reactLink'>
-                <div class="chip" ref={archiveRef} onClick={archiveClick}>Archive <span class="count">1</span></div>
+                <div class="chip" ref={archiveRef} onClick={archiveClick}>Archive <span class="count">~</span></div>
             </Link>
         </div>
     )
