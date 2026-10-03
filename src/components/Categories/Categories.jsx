@@ -63,7 +63,7 @@ export default function Categories() {
         <div class="chips">
 
             <Link to='/show/all' className='reactLink'>
-                <div class="chip " ref={allRef} onClick={allClick} >All <span class="count">1~</span></div>
+                <div class="chip " ref={allRef} onClick={allClick} >All <span class="count">~</span></div>
             </Link>
 
             <Link to='/show/links' className='reactLink'>
